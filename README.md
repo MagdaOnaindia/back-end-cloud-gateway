@@ -1,6 +1,6 @@
 # back-end-cloud-gateway
 
-Example implementation of a Reverse Proxy using Spring Cloud Gateway.
+Example implementation of a Reverse Proxy using Spring Cloud Gateway (ACL).
 
 [Official Documentation](https://cloud.spring.io/spring-cloud-gateway/reference/html/)
 
