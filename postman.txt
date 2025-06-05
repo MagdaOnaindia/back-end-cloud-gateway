@@ -1,0 +1,49 @@
+Postman:
+sobre http://localhost:8762/ms-inventory-products/products
+POST
+{
+"targetMethod":"POST",
+"body":{
+
+    "name": "IPhone20",
+    "description":"estupendo iphone20",
+    "country": "Es",
+    "visible": "true"
+
+}
+}
+
+PUT: product/id
+{
+"targetMethod":"PUT",
+"body":{
+
+    "name": "IPhone31",
+    "description":"estupendo iphone30",
+    "country": "Es",
+    "visible": "true"
+
+}
+}
+
+PATCH: product/id
+
+{
+"targetMethod":"PATCH",
+"body":{
+
+    "name": "IPhone30"
+    
+}
+}
+
+DELETE:products/id
+
+{
+"targetMethod":"DELETE"
+}
+
+GETALL
+{
+"targetMethod":"GET"
+}
